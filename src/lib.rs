@@ -734,7 +734,7 @@ extern "C" fn handle_admin_message(_message: *mut RawJanssonValue) -> *mut RawJa
 
 const PLUGIN: Plugin = build_plugin!(
     LibraryMetadata {
-        api_version: 13,
+        api_version: 14,
         version: 1,
         name: c_str!("Janus SFU plugin"),
         package: c_str!("janus.plugin.sfu"),
